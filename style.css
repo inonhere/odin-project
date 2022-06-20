@@ -28,7 +28,43 @@ ul {
     margin: 16px;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#hero {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 40px;
+}
+
+#heros {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 40px;
+    
+}
+
+#cool {
+    font-size: 18px;
+    margin: 40px;
+}
+
+
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+header {
+    height: 500px;
+    background-color: #1f2937;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
 }
