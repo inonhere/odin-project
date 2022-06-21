@@ -34,6 +34,10 @@ ul {
     flex-wrap: wrap;
 }
 
+.fcontainer {
+    display: flex;
+}
+
 #hero {
     font-size: 48px;
     font-weight: bold;
