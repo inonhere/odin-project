@@ -14,6 +14,8 @@ ul {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding-left: 200px;
+    margin-bottom: 150px;
 }
 
 .irp {
@@ -22,35 +24,30 @@ ul {
     font-size: 18px;
 }
 
-.logo {
-    display: flex;
-    padding: 16px;
-    margin: 16px;
-}
 
-.container {
+.hcontainer {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px;
+    flex-wrap: wrap;
 }
 
 #hero {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
-    margin: 40px;
 }
 
 #heros {
     font-size: 18px;
     color: #E5E7EB;
-    margin-left: 40px;
     
 }
 
 #cool {
     font-size: 18px;
-    margin: 40px;
 }
 
 
@@ -60,7 +57,6 @@ a {
 }
 
 header {
-    height: 500px;
     background-color: #1f2937;
 }
 
