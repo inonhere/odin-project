@@ -2,6 +2,11 @@
 
 html {
  font-family: 'Roboto', sans-serif;
+ background-color: #1f2937;
+}
+
+body {
+    background-color: aliceblue;
 }
 
 ul {
@@ -12,6 +17,52 @@ ul {
     display: flex;
     padding: 32px;
     justify-content: space-between;
+}
+
+.bcontainer {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.icontainer{
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.qcontainer{
+    display:flex;
+}
+
+.lcontainer{
+    display:flex;
+    justify-content: center;
+    flex: wrap;
+}
+
+.qtext{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    background-color: #E5E7EB;
+}
+
+.itext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.btext {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .header {
@@ -36,6 +87,10 @@ ul {
     display: flex;
 }
 
+.ocontainer {
+    display: flex;
+}
+
 .body {
     flex: 1;
     display: flex;
@@ -45,6 +100,7 @@ ul {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    
 }
 
 #heros {
@@ -70,4 +126,19 @@ header {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+#button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 100px;
 }
